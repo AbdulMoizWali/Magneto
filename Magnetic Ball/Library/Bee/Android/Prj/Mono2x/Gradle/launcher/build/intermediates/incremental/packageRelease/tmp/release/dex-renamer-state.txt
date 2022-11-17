@@ -1,0 +1,4 @@
+#Thu Nov 17 23:45:03 PKT 2022
+base.0=F\:\\UnityProjects\\Magneto.git\\Magnetic Ball\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

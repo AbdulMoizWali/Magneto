@@ -1,0 +1,2 @@
+com/DefaultCompany/MagneticBall/BuildConfig.java
+ com.DefaultCompany.MagneticBall.BuildConfig

@@ -26,11 +26,6 @@ public class BallMovement : MonoBehaviour
 		rb = GetComponent<Rigidbody>();
 	}
 
-	private void Start()
-	{
-		
-	}
-
 	private void Update()
 	{
 		if (buttonPressed)
@@ -62,13 +57,13 @@ public class BallMovement : MonoBehaviour
 		//buttonPressed = false;
 	}
 
-	private void FixedUpdate()
+	/*private void FixedUpdate()
 	{
-		if (!buttonPressed)
+		*//*if (!buttonPressed)
 		{
 			//rb.velocity = rb.velocity * 0.99f * Time.deltaTime;
-		}
-	}
+		}*//*
+	}*/
 
 	public void ButtonPressed()
 	{
