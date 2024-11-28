@@ -353,6 +353,10 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Script/BallMovement.cs"
 "Assets/Script/CameraFollow.cs"
+"Assets/Script/HealthBar/Health.cs"
+"Assets/Script/HealthBar/HealthBar.cs"
+"Assets/Script/HealthBar/HealthSystem.cs"
+"Assets/Script/HealthBar/PlayerHealth.cs"
 -langversion:9.0
 
 /deterministic

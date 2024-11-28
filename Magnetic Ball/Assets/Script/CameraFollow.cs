@@ -94,7 +94,7 @@ public class CameraFollow : MonoBehaviour
 		Debug.DrawLine(Vector3.zero, new Vector3(1f, 1f, 0), Color.yellow, 1f);*/
 		if ((Facing_Direction(1f, 1f) <= (Facing_Direction(0f, 1f)) && (Facing_Direction(1f, 1f) >= (Facing_Direction(1f, 0f)))) || (Facing_Direction(-1f, -1f) <= (Facing_Direction(0f, -1f)) && (Facing_Direction(-1f, -1f) >= (Facing_Direction(-1f, 0f)))))
 		{
-			Debug.Log("/ Diagonal");
+			//Debug.Log("/ Diagonal");
 			if (rotation <= z_Max_Rotation)
 			{
 				return;
@@ -108,7 +108,7 @@ public class CameraFollow : MonoBehaviour
 			{
 				return;
 			}
-			Debug.Log("Diagonal \\");
+			//Debug.Log("Diagonal \\");
 			rotation += rotationSpeed * Time.deltaTime;
 			transform.rotation = Quaternion.Euler(OrgRotation.eulerAngles.x, OrgRotation.eulerAngles.y, rotation);
 		}
