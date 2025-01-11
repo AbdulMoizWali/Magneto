@@ -117,9 +117,9 @@ public class BallMovement : MonoBehaviour
 
 	private void DecreasetheCurrentVelocity()
 	{
-		while (rb.velocity.magnitude > 0.5)
+		while (rb.linearVelocity.magnitude > 0.5)
 		{
-			rb.velocity = rb.velocity * 0.95f * Time.deltaTime;
+			rb.linearVelocity = rb.linearVelocity * 0.95f * Time.deltaTime;
 		}
 	}
 

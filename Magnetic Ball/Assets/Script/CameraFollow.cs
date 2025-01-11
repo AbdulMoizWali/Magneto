@@ -157,7 +157,7 @@ public class CameraFollow : MonoBehaviour
 
 	private float Facing_Direction(float x, float y)
 	{
-		return Vector3.Dot(target.GetComponent<Rigidbody>().velocity.normalized, new Vector3(x, y, 0));
+		return Vector3.Dot(target.GetComponent<Rigidbody>().linearVelocity.normalized, new Vector3(x, y, 0));
 	}
 
 	IEnumerator waitForPlaneSpawn()
