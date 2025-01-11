@@ -402,6 +402,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Script/BallMovement.cs"
 "Assets/Script/CameraFollow.cs"
+"Assets/Script/GameManager.cs"
+"Assets/Script/PlayerScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+
