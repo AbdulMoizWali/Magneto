@@ -404,6 +404,7 @@
 "Assets/Script/CameraFollow.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/PlayerScript.cs"
+"Assets/Script/ResetButtonScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+

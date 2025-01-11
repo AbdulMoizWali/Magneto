@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -51,6 +52,12 @@ public class GameManager : MonoBehaviour
             gameOverPanel.SetActive(true);
             Debug.Log("Game Over!");
         }
+    }
+
+    public void ResetGame()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
